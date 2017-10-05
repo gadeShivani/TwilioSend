@@ -11,6 +11,9 @@ $client = new Client($account_sid, $auth_token);
  
 $messages = $client->messages->create("+19178257631", array( 
         'From' => "+12544010741",    
-        'Body' => "Hi"
+        'Body' => "Hello From Shivani Gade CS 643 Fall 2017 "
   ));
+$time = gettimeofday();
+$GMToffset = $time['minuteswest'] / 60;
+echo "Server location is $GMToffset hours west of GMT.";
 ?>
