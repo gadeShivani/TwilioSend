@@ -9,7 +9,7 @@ $account_sid = 'AC66137e3e9c89c3d17f08410aea6bc17e';
 $auth_token = 'f31b3fca7439255df713dd6129a9b916'; 
 $client = new Client($account_sid, $auth_token); 
  
-$messages = $client->messages->create("+19178257631", array( 
+$messages = $client->messages->create("+19173490168", array( 
         'From' => "+12544010741",    
         'Body' => "Hello From Shivani Gade CS 643 Fall 2017 "
   ));
